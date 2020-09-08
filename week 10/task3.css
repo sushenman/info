@@ -1,0 +1,40 @@
+.logo{
+  background-image: url('c.jpg');
+  background-repeat: no-repeat;
+  background-position: left;
+  position: relative;
+  margin-left: 10px;
+  margin-top: 20px;
+}
+.navi1
+{
+  border-style: solid;
+  left: 2000px;
+  top:20px;
+  position: fixed;
+  font-size: 30px;
+}
+.navi2
+{
+  border-style: solid;
+  left: 2080px;
+  top:20px;
+  position: fixed;
+  font-size: 30px;
+}
+.navi3
+{
+  border-style: solid;
+  left: 2210px;
+  top:20px;
+  position: fixedx;
+  font-size: 30px;
+}
+.navi4
+{
+  border-style: solid;
+  left: 2400px;
+  top:20px;
+  position: absolute;
+  font-size: 30px;
+}

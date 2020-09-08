@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+</head>
+<body>
+<form name ="Login"method="post" action = "#">
+	<fieldset><legend>Login i</legend>
+		<input type="text" name="username" placeholder="username" /><br/>
+		<input type="password" name="password" placeholder="password"><br/>
+		<input type="submit" name="submit"value = "Login"/>
+	</fieldset>
+</form>
+<form name="signup" method="post" action="#" enctype="multipart/form-data">
+	<fieldset>
+		<legend>Sign Up</legend>
+		<table border="0" cellpadding="5" cellspacing="5" align="center">
+			<tr>
+				<td>Full Name</td>
+				<td><input type="text" name="name" size="30" maxlength="50" required="required"></td>
+			</tr>
+			<tr><td>Email ID</td>
+				<td><input type="email" name="email" placeholder="you@domain.com" required="required"></td>
+			</tr>
+			<tr>
+				<td>Gender</td>
+				<td></td>
+			</tr>
+			<TR><td align="center"><input type="submit" name="submit" value="send">
+			<input type="submit" name="submit" value="clear"/></td></TR>
+
+		</table>
+		<input type="file" name="photo">
+		<input type="date" name="date">
+	</fieldset>
+</form>
+</body>
+</html>

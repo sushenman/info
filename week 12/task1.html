@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>task1</title>
+  </head>
+  <body onload="clockStart()">
+    <script>
+      var dt=new Date();
+      var y = dt.getFullYear();
+      var m = dt.getMonth();
+      var d = dt.getDate();
+      document.write("Date: " +y +"-0"+ m +"-0" + d);
+</script>
+
+
+
+          <div id="clock">
+          	<span id="hour">hh</span>:<span id="min">mm</span>:<span id="sec">ss</span>
+          </div>
+
+          <script>
+              var timerId; // current timer if started
+              function clockStart() {
+                   if (timerId)
+                      return;
+                    timerId = setInterval(update, 1000);
+                    update();  // (*)
+              }
+              function update() {
+        var date = new Date();
+        var hours = date.getHours();
+        if (hours < 10)
+      	hours = '0'+hours;
+        document.getElementById('hour').innerHTML = hours;
+        var minutes = date.getMinutes();
+        if (minutes < 10)
+      	minutes = '0'+minutes;
+        document.getElementById('min').innerHTML = minutes;
+        var seconds = date.getSeconds();
+        if (seconds < 10)
+      	seconds = '0'+seconds;
+        document.getElementById('sec').innerHTML = seconds;
+      }
+      </script>
+  </body>
+</html>

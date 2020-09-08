@@ -1,0 +1,108 @@
+body{
+ background:#00BFFF;
+}
+.col1{
+  width:200px;height:40px;background-color:#fff;
+border-style:double;
+position:relative;left:200px;top:40px;}
+.col2{
+  width:200px;height:40px;background-color:#fff;
+border-style:double;
+position:relative;;left:403px;top:-2px;}
+
+.col3{
+  width:200px;height: 40px; background-color: #fff;
+  border-style: double;
+  position: relative; left: 605px; top: -45px;
+}
+.blue{
+  width:202px;height:250px;background-color:blue;
+border-style:double;
+position:relative;left:199px;top:-45px;
+color: #fff;
+}
+p{
+  padding-top: 10px;
+  padding-left: 10px;
+}
+.ol{
+  list-style: decimal;
+  padding-left:20px;
+  padding-top: 10px;
+}
+.yellow {width:200px;height:50px;background-color:yellow;
+border-style:double;
+position:relative;left:403px;top:-300px;
+text-align: right;
+}
+.red {width:200px;height:50px;background-color:red;
+border-style:double;
+position:relative;;left:605px;top:-353px;
+text-align:center;
+}
+.green {width:400px;height:200px;background-color:green;
+border-style:double;
+position:relative;left:404px;top:-352px;}
+
+#container{
+  width: 1398px;
+  height: 700px;
+  margin: auto;
+}
+.header
+{
+  font-family: Verdana, sans-serif;
+  background-color: #ccaa66;
+  height: 80px;
+  border-style: solid;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  padding-top: 30px;
+
+}
+.navi
+{
+  font-family: Verdana, sans-serif;
+  background-color: #E8D882;
+  width: 200px;
+  height: 223px;
+  padding: 20px;
+  border-left: solid;
+}
+a{
+  text-decoration: none;
+}
+a:active{color: red;}
+a:visited{color: purple;}
+a:link{color: blue;}
+.bd
+{
+  font-family: Verdana;
+  background: #f1e8b0;
+  width: 1133.5px;
+  position:relative;
+  padding-top: 20px;
+  padding-left: 20px;
+  top: -263px;
+  left: 242px;
+  border-right: solid;
+  background-image: url('abc.jpg');
+  background-size: 160px;
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position: 390px 80px;
+}
+.footer
+{
+  font-family: Verdana;
+  font-style: italic;
+  font-size: 14;
+  background-color: #ccaa66;
+  height: 80px;
+  border-style: solid;
+  text-align: center;
+  top: -262px;
+  position: relative;
+  padding-top: 30px;
+}
