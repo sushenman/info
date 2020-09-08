@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <script>
+
+function check(){
+	if(isNaN(document.f1.PhoneNo.value)){
+		alert("It is not a number");
+		return false;
+		}
+	else{
+		alert("It is a number");
+		return true;
+		}
+}
+
+
+function check2(){
+	if(document.f2.Pw.value==document.f2.Pw2.value){
+		alert("The Passwords match.");
+		return true;
+		}
+	else{
+		alert("The Passwords do not match.");
+		return false;
+		}
+	}
+  </script>
+  </head>
+  <body>
+    <h1>Check wheather it's a number or not</h1>
+    <form name="f1" onsubmit="check();">
+    	<input type="text" name="PhoneNo" id="No">
+    	<button type="Submit">Submit</button>
+    </form>
+    <h3>Check password</h3>
+    <form name="f2" onsubmit="check2();">
+    	Password:<br>
+    	<input type="password" name="Pw">
+    	<br> Confirm Password:<br>
+    	<input type="password" name="Pw2">
+    	<button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
